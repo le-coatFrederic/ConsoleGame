@@ -16,7 +16,8 @@ class UsabledItem : public Item {
 protected:
     int durability;
 public:
-    virtual int getDurability();
+    int getDurability();
+    virtual int useItem();
 };
 
 #endif
