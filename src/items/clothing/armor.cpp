@@ -1,4 +1,5 @@
 #include "../../../includes/items/clothing/armor.hpp"
+#include "../../../includes/items/items.hpp"
 
 int Armor::getBluntDefense() {
     return this->bluntDefense;
@@ -43,4 +44,8 @@ std::string Armor::getPositionName() {
 
 std::vector<effectOnArmorLvl> Armor::getEffects() {
     return this->effects;
+}
+
+int Armor::useItem() {
+    
 }

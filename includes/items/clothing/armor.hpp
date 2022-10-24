@@ -19,6 +19,7 @@ public:
     int getPosition();
     std::string getPositionName();
     std::vector<effectOnArmorLvl> getEffects();
+    int useItem();
 };
 
 #endif

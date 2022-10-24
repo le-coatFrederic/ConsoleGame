@@ -13,7 +13,7 @@ int UsabledItem::getDurability() {
     return this->durability;
 }
 
-void UsabledItem::useItem(int e) {
+void UsabledItem::reduceDurability(int e) {
     if (durability <= 0)
         return;
     this->durability -= e;
