@@ -47,5 +47,5 @@ std::vector<effectOnArmorLvl> Armor::getEffects() {
 }
 
 int Armor::useItem() {
-    
+
 }
