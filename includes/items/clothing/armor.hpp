@@ -12,13 +12,13 @@ protected:
     int bluntDefense;
     int cuttingDefense;
     position pos;
-    std::vector<effectOnArmor> effects;
+    std::vector<effectOnArmorLvl> effects;
 public:
     int getBluntDefense();
     int getCuttingDefense();
     int getPosition();
     std::string getPositionName();
-    std::vector<effectOnArmor> getEffects();
+    std::vector<effectOnArmorLvl> getEffects();
 };
 
 #endif

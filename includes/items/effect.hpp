@@ -12,4 +12,14 @@ typedef enum effectOnArmor {
     heaviness
 }effectOnArmor;
 
+typedef struct effectLvl {
+    effect ef;
+    int effectLvl;
+}effectLvl;
+
+typedef struct effectOnArmorLvl {
+    effectOnArmor ef;
+    int effectLvl;
+}effectOnArmorLvl;
+
 #endif

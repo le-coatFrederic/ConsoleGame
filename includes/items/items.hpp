@@ -17,7 +17,8 @@ protected:
     int durability;
 public:
     int getDurability();
-    virtual int useItem();
+    virtual int useItem() = 0;
+    void useItem(int e);
 };
 
 #endif
